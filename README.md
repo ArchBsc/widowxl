@@ -29,6 +29,5 @@ source install/setup.bash
 ## Εκκίνηση MoveIt Setup Assistant
 
 ```bash
-export LC_NUMERIC="en_US.UTF-8"
 ros2 launch moveit_setup_assistant setup_assistant.launch.py
 ```
