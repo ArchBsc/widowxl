@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="test">
+  <link name="wrist_2_1">
+    <visual>
+      <geometry>
+         <mesh filename="package://my_widowxl_description/meshes/wrist_2_1.stl"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
