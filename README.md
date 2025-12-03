@@ -20,8 +20,6 @@ sudo apt install ros-humble-moveit ros-humble-moveit-setup-assistant -y
 
 ```bash
 cd ~/ros2_ws
-# Καθαρισμός cache του Rviz για αποφυγή conflicts
-rm -rf ~/.rviz2 ~/.ros/log
 
 colcon build --symlink-install --packages-select my_widowxl_description
 source install/setup.bash
